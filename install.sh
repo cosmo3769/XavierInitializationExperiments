@@ -1,15 +1,15 @@
 #!/bin/bash
 
-echo "~ C1 Secret ~"
+# echo "~ C1 Secret ~"
 
-echo "Creating Virtual Env"
-virtualenv -p python2 env
+# echo "Creating Virtual Env"
+# virtualenv -p python2 env
 
-echo "Activating Virtual Env"
-source ./env/bin/activate
+# echo "Activating Virtual Env"
+# source ./env/bin/activate
 
-echo "Installing Requirements"
-pip install -r requirements.txt
+# echo "Installing Requirements"
+# pip install -r requirements.txt
 
 echo "Adding repos to lib"
 mkdir lib

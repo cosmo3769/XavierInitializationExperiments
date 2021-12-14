@@ -1,8 +1,8 @@
 import tensorflow as tf
 from tensorflow.python.client import device_lib
-from tensorflow.python.keras.utils import multi_gpu_model
-from tensorflow.python.keras.optimizers import SGD
-from tensorflow.python.keras.callbacks import History
+# from tensorflow.keras.utils import multi_gpu_model
+from tensorflow.keras.optimizers import SGD
+from tensorflow.keras.callbacks import History
 from lib.KerasHelpers.modelhelpers import GradientActivationStore, model_placement
 from src.data.create_data import CreateDataset
 from src.models.model import fully_connected_neural_net

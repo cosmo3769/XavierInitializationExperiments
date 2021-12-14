@@ -1,5 +1,5 @@
-from tensorflow.python.keras import datasets
-from tensorflow.python.keras.utils import to_categorical
+from tensorflow.keras import datasets
+from tensorflow.keras.utils import to_categorical
 import numpy as np
 import itertools
 import types
